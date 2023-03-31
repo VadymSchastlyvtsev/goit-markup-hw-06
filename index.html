@@ -67,10 +67,9 @@
         <div class="container hero-box">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-btn" data-modal-open>Order Service</button>
-      
+        </div>
       </section>
     
-
       <!-- Цінності компанії -->
       <section class="values section">
         <div class="container">
@@ -302,6 +301,20 @@
           </svg></a> </li>
         </ul>
       </div>
+      <div class="subscribe-container">
+        <p class="container-title">Subscribe</p>
+        <form class="subscribe-form">
+          <label class="subscribe-label">
+            <input type="text" name="email" placeholder="E-mail" class="subscribe-input">
+          </label>
+          <button type="submit" class="subscribe-button">
+            Subscribe
+            <svg width="24px" height="24px" class="send-icon">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
       
   
@@ -314,6 +327,55 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+<div class="modal-form-input">
+  <div class="modal-input-wraper">
+    <label for="name" class="modal-lable">Name</label>
+    <div class="wraper-input">
+      <input type="text" name="name" id="name" class="modal-input">
+      <svg width="18px" height="24px" class="modal-input-icon">
+        <use href="./images/icons.svg#icon-name"></use>
+      </svg>
+    </div>
+    
+  </div>
+  <div class="modal-input-wraper">
+    <label for="phone" class="modal-lable">Phone</label>
+    <div class="wraper-input">
+      <input type="tel" name="tel" id="tel" class="modal-input">
+      <svg width="18px" height="24px" class="modal-input-icon">
+        <use href="./images/icons.svg#icon-phone"></use>
+      </svg>
+    </div>
+    </div>
+  <div class="modal-input-wraper">
+    <label for="email" class="modal-lable">Email</label>
+    <div class="wraper-input">
+      <input type="mail" name="mail" id="mail" class="modal-input">
+      <svg width="18px" height="24px" class="modal-input-icon">
+        <use href="./images/icons.svg#icon-email"></use>
+      </svg>
+    </div>
+    </div>
+  <div class="modal-input-wraper">
+    <label for="comment" class="modal-lable">Comment</label>
+    <textarea name="comment" id="comment" placeholder="Text input" class="modal-textarea"></textarea>
+  </div>
+</div>
+<label class="policy-label">
+  <input type="checkbox" name="policy" class="policy-input">
+  <span class="policy-checkbox">
+    <svg width="10px" height="8px">
+      <use href="./images/icons.svg#icon-vector"></use>
+    </svg>
+  </span>
+  <span class="policy-text">I accept the terms and conditions of the <a href="#" class="policy-link">Privacy Policy</a></span>
+</input>
+</label>
+<button type="submit" class="modal-button">Send</button>
+        </form>
+      
       </div>
     </div>
 
