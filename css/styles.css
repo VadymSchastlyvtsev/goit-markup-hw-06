@@ -458,10 +458,10 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
 }
 .footer-box {
   width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -482,6 +482,7 @@ img {
 .footer-box-item {
   width: 208px;
   height: 80px;
+  margin-right: 80px;
 }
 
 .social-media-title {
@@ -611,6 +612,7 @@ cursor: pointer;
 }
 
 .modal {
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -619,7 +621,7 @@ cursor: pointer;
 
   min-width: 408px;
   min-height: 576px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -632,13 +634,16 @@ cursor: pointer;
 }
 
 .button-close {
+position: absolute;
+top: 24px;
+right: 24px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: 24px;
   height: 24px;
-  margin-left: auto;
 
   background-color: var(--accent-text);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -661,7 +666,6 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--dark-text);
-margin-top: 24px;
 margin-bottom: 16px;
 }
 
@@ -684,6 +688,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--subtle-text);
+margin-bottom: 4px;
 }
 
 .wraper-input {
