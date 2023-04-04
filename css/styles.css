@@ -531,6 +531,7 @@ margin-bottom: 16px;
 
 .subscribe-input {
   display: block;
+  width: 264px;
   padding: 8px 16px;
 
   height: 40px;
